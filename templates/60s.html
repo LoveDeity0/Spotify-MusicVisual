@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1960s 音乐趋势</title>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f9f7f6;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+        }
+
+        h1 {
+            margin-bottom: 20px;
+        }
+
+        #linechart-era1 {
+            width: 600px;
+            height: 400px;
+        }
+
+        a.back-link {
+            margin-top: 30px;
+            color: #555;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        a.back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>🎵 1960s 音乐流派趋势</h1>
+    <div id="linechart-era1"></div>
+
+    <!-- 脚本入口 -->
+    <script src="{{ url_for('static', filename='linechart-era1.js') }}"></script>
+
+    <!-- 返回按钮 -->
+    <a href="/" class="back-link">← 返回主页</a>
+
+</body>
+</html>

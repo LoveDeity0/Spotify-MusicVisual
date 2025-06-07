@@ -1,0 +1,524 @@
+{
+  "name": "Genres",
+  "children": [
+    {
+      "name": "Rock",
+      "children": [
+        {
+          "name": "Classic Rock",
+          "children": [
+            {
+              "name": "classic rock"
+            },
+            {
+              "name": "hard rock"
+            },
+            {
+              "name": "rock"
+            }
+          ]
+        },
+        {
+          "name": "Alternative Rock",
+          "children": [
+            {
+              "name": "alternative rock"
+            },
+            {
+              "name": "grunge"
+            },
+            {
+              "name": "indie rock"
+            }
+          ]
+        },
+        {
+          "name": "Punk",
+          "children": [
+            {
+              "name": "punk"
+            },
+            {
+              "name": "punk rock"
+            },
+            {
+              "name": "pop punk"
+            }
+          ]
+        },
+        {
+          "name": "Metal",
+          "children": [
+            {
+              "name": "heavy metal"
+            },
+            {
+              "name": "black metal"
+            },
+            {
+              "name": "death metal"
+            },
+            {
+              "name": "doom metal"
+            },
+            {
+              "name": "thrash metal"
+            }
+          ]
+        },
+        {
+          "name": "Progressive/Experimental",
+          "children": [
+            {
+              "name": "progressive rock"
+            },
+            {
+              "name": "progressive metal"
+            },
+            {
+              "name": "math rock"
+            },
+            {
+              "name": "experimental"
+            }
+          ]
+        },
+        {
+          "name": "Other Rock",
+          "children": [
+            {
+              "name": "garage rock"
+            },
+            {
+              "name": "post-punk"
+            },
+            {
+              "name": "post-hardcore"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electronic",
+      "children": [
+        {
+          "name": "Dance",
+          "children": [
+            {
+              "name": "dance"
+            },
+            {
+              "name": "electro"
+            },
+            {
+              "name": "house"
+            },
+            {
+              "name": "techno"
+            },
+            {
+              "name": "trance"
+            }
+          ]
+        },
+        {
+          "name": "Bass",
+          "children": [
+            {
+              "name": "dubstep"
+            },
+            {
+              "name": "drum and bass"
+            },
+            {
+              "name": "dub"
+            }
+          ]
+        },
+        {
+          "name": "Ambient",
+          "children": [
+            {
+              "name": "ambient"
+            },
+            {
+              "name": "chillout"
+            },
+            {
+              "name": "trip-hop"
+            }
+          ]
+        },
+        {
+          "name": "Pop Electronic",
+          "children": [
+            {
+              "name": "electropop"
+            },
+            {
+              "name": "synthpop"
+            }
+          ]
+        },
+        {
+          "name": "Other Electronic",
+          "children": [
+            {
+              "name": "industrial"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Pop",
+      "children": [
+        {
+          "name": "Mainstream Pop",
+          "children": [
+            {
+              "name": "pop"
+            },
+            {
+              "name": "pop rock"
+            }
+          ]
+        },
+        {
+          "name": "Indie Pop",
+          "children": [
+            {
+              "name": "indie pop"
+            }
+          ]
+        },
+        {
+          "name": "Regional Pop",
+          "children": [
+            {
+              "name": "j-pop"
+            },
+            {
+              "name": "k-pop"
+            }
+          ]
+        },
+        {
+          "name": "Dream Pop",
+          "children": [
+            {
+              "name": "dream pop"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Hip-hop/Rap",
+      "children": [
+        {
+          "name": "Traditional Hip-hop",
+          "children": [
+            {
+              "name": "hip hop"
+            },
+            {
+              "name": "hip-hop"
+            },
+            {
+              "name": "rap"
+            }
+          ]
+        },
+        {
+          "name": "New School",
+          "children": [
+            {
+              "name": "trap"
+            },
+            {
+              "name": "cloud rap"
+            },
+            {
+              "name": "emo rap"
+            }
+          ]
+        },
+        {
+          "name": "International",
+          "children": [
+            {
+              "name": "grime"
+            },
+            {
+              "name": "reggaeton"
+            }
+          ]
+        },
+        {
+          "name": "Lo-fi",
+          "children": [
+            {
+              "name": "lo-fi"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Metal",
+      "children": [
+        {
+          "name": "Traditional Metal",
+          "children": [
+            {
+              "name": "heavy metal"
+            },
+            {
+              "name": "power metal"
+            }
+          ]
+        },
+        {
+          "name": "Extreme Metal",
+          "children": [
+            {
+              "name": "black metal"
+            },
+            {
+              "name": "death metal"
+            },
+            {
+              "name": "melodic death metal"
+            }
+          ]
+        },
+        {
+          "name": "Core",
+          "children": [
+            {
+              "name": "metalcore"
+            },
+            {
+              "name": "deathcore"
+            }
+          ]
+        },
+        {
+          "name": "Other Metal",
+          "children": [
+            {
+              "name": "doom metal"
+            },
+            {
+              "name": "thrash metal"
+            },
+            {
+              "name": "nu metal"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Folk/Country",
+      "children": [
+        {
+          "name": "Folk",
+          "children": [
+            {
+              "name": "folk"
+            },
+            {
+              "name": "acoustic"
+            }
+          ]
+        },
+        {
+          "name": "Country",
+          "children": [
+            {
+              "name": "country"
+            },
+            {
+              "name": "alt-country"
+            }
+          ]
+        },
+        {
+          "name": "Roots",
+          "children": [
+            {
+              "name": "blues"
+            },
+            {
+              "name": "gospel"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "R&B/Soul",
+      "children": [
+        {
+          "name": "R&B",
+          "children": [
+            {
+              "name": "rnb"
+            },
+            {
+              "name": "soul"
+            }
+          ]
+        },
+        {
+          "name": "Gospel",
+          "children": [
+            {
+              "name": "gospel"
+            },
+            {
+              "name": "worship"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Jazz",
+      "children": [
+        {
+          "name": "Jazz",
+          "children": [
+            {
+              "name": "jazz"
+            },
+            {
+              "name": "swing"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "World",
+      "children": [
+        {
+          "name": "Latin",
+          "children": [
+            {
+              "name": "latin"
+            }
+          ]
+        },
+        {
+          "name": "Reggae",
+          "children": [
+            {
+              "name": "reggae"
+            },
+            {
+              "name": "reggaeton"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Ambient/Experimental",
+      "children": [
+        {
+          "name": "Ambient",
+          "children": [
+            {
+              "name": "ambient"
+            },
+            {
+              "name": "chillwave"
+            }
+          ]
+        },
+        {
+          "name": "Experimental",
+          "children": [
+            {
+              "name": "experimental"
+            }
+          ]
+        },
+        {
+          "name": "Soundtrack",
+          "children": [
+            {
+              "name": "soundtrack"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Dance",
+      "children": [
+        {
+          "name": "Club",
+          "children": [
+            {
+              "name": "dance"
+            },
+            {
+              "name": "dancehall"
+            }
+          ]
+        },
+        {
+          "name": "EDM",
+          "children": [
+            {
+              "name": "house"
+            },
+            {
+              "name": "techno"
+            },
+            {
+              "name": "trance"
+            }
+          ]
+        },
+        {
+          "name": "Bass Music",
+          "children": [
+            {
+              "name": "dubstep"
+            },
+            {
+              "name": "drum and bass"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Special",
+      "children": [
+        {
+          "name": "Comedy",
+          "children": [
+            {
+              "name": "comedy"
+            }
+          ]
+        },
+        {
+          "name": "Christian",
+          "children": [
+            {
+              "name": "christian"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

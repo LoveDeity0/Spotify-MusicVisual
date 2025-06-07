@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spotify 音乐数据集可视化</title>
+  <style>
+    body, html {
+      margin: 0;
+      padding: 0;
+      font-family: 'Arial', sans-serif;
+      color: white;
+      scroll-behavior: smooth;
+    }
+
+    .parallax-section {
+      position: relative;
+      height: 100vh;
+      background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4'); /* 你可替换为任何音乐相关图像 */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    .parallax-section h1 {
+      font-size: 3em;
+      font-weight: bold;
+      margin: 0.5em 0;
+      text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.6);
+    }
+
+    .parallax-section p {
+      font-size: 1.3em;
+      max-width: 600px;
+      margin: 0 auto 1.5em;
+      line-height: 1.6;
+      text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .cta-button {
+      background-color: rgba(255, 255, 255, 0.2);
+      border: 2px solid white;
+      color: white;
+      padding: 0.6em 1.5em;
+      font-size: 1em;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .cta-button:hover {
+      background-color: white;
+      color: #000;
+    }
+
+    .content-section {
+      background: #111;
+      padding: 3em 1.5em;
+      color: white;
+      text-align: center;
+    }
+
+    .content-section h2 {
+      font-size: 2em;
+      margin-bottom: 1em;
+    }
+
+    .content-section p {
+      font-size: 1.1em;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.7;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- 视觉差滚动部分 -->
+  <section class="parallax-section">
+    <h1>Spotify 音乐数据集可视化</h1>
+    <p>探索海量音乐背后的数据故事：节奏、情感、受欢迎程度，全部通过可视化一目了然。</p>
+    <a href="#details" class="cta-button">了解更多</a>
+  </section>
+
+  <!-- 页面后续内容部分 -->
+  <section id="details" class="content-section">
+    <h2>项目介绍</h2>
+    <p>
+      本项目基于 Spotify 公共数据集，利用现代数据可视化技术（如 D3.js、Plotly、NetworkX）展示音乐的多维特征。通过图表、网络图、热力图等方式，用户可以直观了解音乐类型的演变趋势、艺人特征分布以及用户喜好变化等丰富内容。
+    </p>
+  </section>
+
+</body>
+</html>

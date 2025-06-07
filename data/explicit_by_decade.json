@@ -1,0 +1,37 @@
+{
+    "60": {
+        "total_songs": 3919,
+        "explicit_songs": 9,
+        "explicit_percentage": 0.23
+    },
+    "70": {
+        "total_songs": 9623,
+        "explicit_songs": 44,
+        "explicit_percentage": 0.46
+    },
+    "80": {
+        "total_songs": 12629,
+        "explicit_songs": 456,
+        "explicit_percentage": 3.61
+    },
+    "90": {
+        "total_songs": 24065,
+        "explicit_songs": 4319,
+        "explicit_percentage": 17.95
+    },
+    "00": {
+        "total_songs": 37929,
+        "explicit_songs": 7451,
+        "explicit_percentage": 19.64
+    },
+    "10": {
+        "total_songs": 175612,
+        "explicit_songs": 59393,
+        "explicit_percentage": 33.82
+    },
+    "20": {
+        "total_songs": 85946,
+        "explicit_songs": 31768,
+        "explicit_percentage": 36.96
+    }
+}

@@ -1,0 +1,123 @@
+/* 主容器样式：放大、柔化背景 */
+.shell {
+    width: 660px; /* 扩大容器宽度 */
+    height: 360px;
+    border-radius: 20px;
+    overflow: hidden;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    transition: background-color 0.5s ease;
+    transform: scale(0.85); /* 适度缩放 */
+    padding-bottom: 40px;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.4); /* 半透明黑色遮罩 */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transition: background-image 0.5s ease, background-color 0.5s ease;
+}
+
+/* 内部主体区域宽度撑满 */
+.shell_body {
+    width: 100%;
+    padding: 10px 0 70px 0;
+}
+
+/* 按钮样式：居中到底部 */
+.button {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 10px;
+}
+
+/* 上一页/下一页按钮 */
+.prev,
+.next {
+    transition: transform 0.25s ease;
+    z-index: 99999;
+}
+
+.prev i,
+.next i {
+    font-size: 40px;
+    color: #fff;
+    cursor: pointer;
+    text-shadow: 0 0 10px #ffffff;
+}
+
+/* 滑动容器：横向排列 */
+.shell_slider {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    transition: transform 1s ease-in-out;
+    background: transparent;
+    padding-top: 20px;
+}
+
+/* 每个卡片项目 */
+.item {
+    width: 250px;
+    height: 300px;
+    flex-shrink: 0;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* 框架包裹元素 */
+.frame {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transition: transform 1s ease-in-out;
+    transform-style: preserve-3d;
+}
+
+/* 播放卡片样式 */
+.box.front {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 15px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    box-shadow: 0 0 20px #ffffff50;
+    text-align: center;
+}
+
+/* 标题与描述 */
+.box.front h2 {
+    color: #fff;
+    text-shadow: 0 0 30px #1f05b4;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.box.front span {
+    color: #fff;
+    font-size: 14px;
+    text-shadow: 0 0 10px #1f05b4;
+    margin-bottom: 15px;
+}
+
+/* 播放控件样式 */
+.box.front audio {
+    width: 100%;
+    max-width: 200px;
+}
+

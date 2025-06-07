@@ -1,0 +1,89 @@
+﻿Genre,Good for Party,Good for Work/Study,Good for Relaxation/Meditation,Good for Exercise,Good for Running,Good for Yoga/Stretching,Good for Driving,Good for Social Gatherings,Good for Morning Routine,Top Context Label
+acoustic,6,105,44,50,16,34,32,2,26,Good for Work/Study
+alt-country,4,44,13,32,7,7,15,2,26,Good for Work/Study
+alternative,115,256,100,511,183,69,146,28,161,Good for Exercise
+alternative rock,1501,1440,540,4141,1242,359,883,224,1424,Good for Exercise
+ambient,57,262,120,375,85,90,141,9,155,Good for Exercise
+black metal,21,28,15,48,20,10,19,7,18,Good for Exercise
+blues,323,1201,460,988,235,346,692,112,589,Good for Work/Study
+britpop,21,21,6,89,24,5,15,2,32,Good for Exercise
+chillout,1,12,7,20,7,6,7,0,7,Good for Exercise
+chillwave,1,84,50,36,15,30,37,9,42,Good for Work/Study
+christian,28,67,41,164,45,24,30,2,34,Good for Exercise
+classic rock,231,329,105,697,150,74,188,77,313,Good for Exercise
+classical,160,540,243,618,161,189,202,34,233,Good for Exercise
+cloud rap,306,62,10,540,175,5,103,48,140,Good for Exercise
+comedy,34,72,28,160,51,19,33,5,60,Good for Exercise
+country,579,1602,639,1422,453,451,483,115,546,Good for Work/Study
+dance,419,131,49,893,183,24,181,87,343,Good for Exercise
+dancehall,61,14,8,244,68,5,149,49,155,Good for Exercise
+death metal,54,18,8,137,55,5,12,0,12,Good for Exercise
+deathcore,8,3,2,37,6,2,0,0,1,Good for Exercise
+disco,92,176,86,247,26,53,94,53,175,Good for Exercise
+doom metal,2,29,14,20,6,9,8,0,13,Good for Work/Study
+dream pop,39,182,69,158,25,48,67,7,95,Good for Work/Study
+drum and bass,80,34,15,415,157,12,23,9,33,Good for Exercise
+dub,41,29,18,171,34,11,67,6,109,Good for Exercise
+dubstep,54,29,16,195,70,14,19,0,16,Good for Exercise
+electro,63,24,10,197,37,5,35,3,53,Good for Exercise
+electronic,1251,903,352,3567,801,255,616,257,1154,Good for Exercise
+electropop,700,282,114,1514,451,67,309,175,601,Good for Exercise
+emo,103,106,43,391,140,22,63,6,79,Good for Exercise
+emo rap,91,58,5,226,94,2,88,22,73,Good for Exercise
+experimental,65,244,110,328,81,87,94,14,116,Good for Exercise
+folk,310,2736,1005,1133,266,734,524,59,616,Good for Work/Study
+funk,220,415,164,588,112,104,515,118,464,Good for Exercise
+garage rock,29,33,13,190,43,7,29,2,40,Good for Exercise
+gospel,30,393,165,137,43,120,65,6,67,Good for Work/Study
+grime,68,9,5,264,49,2,18,1,25,Good for Exercise
+grunge,57,63,20,185,47,12,33,4,50,Good for Exercise
+hard rock,326,278,119,1096,266,78,222,32,315,Good for Exercise
+hardcore,16,24,14,79,24,12,6,1,6,Good for Exercise
+heavy metal,604,197,80,1264,413,40,156,5,189,Good for Exercise
+hip hop,8720,10840,4525,37680,11064,3088,11701,1436,12497,Good for Exercise
+hip-hop,346,86,22,1168,514,11,492,75,349,Good for Exercise
+house,288,55,26,700,87,16,73,38,161,Good for Exercise
+indie,168,473,183,615,154,131,198,41,277,Good for Exercise
+indie pop,320,823,311,1178,318,209,406,122,631,Good for Exercise
+indie rock,479,1452,554,2141,571,360,589,55,896,Good for Exercise
+industrial,86,60,21,295,89,13,21,4,49,Good for Exercise
+j-pop,90,26,13,176,47,11,74,48,94,Good for Exercise
+jazz,457,1783,824,1353,615,632,547,85,567,Good for Work/Study
+k-pop,339,19,4,414,171,2,74,65,78,Good for Exercise
+latin,54,49,12,138,36,9,29,12,66,Good for Exercise
+lo-fi,33,233,93,180,48,51,71,14,79,Good for Work/Study
+math rock,9,7,2,56,10,1,13,0,23,Good for Exercise
+melodic death metal,14,15,5,76,18,2,3,0,7,Good for Exercise
+metal,497,190,85,1139,316,45,128,40,204,Good for Exercise
+metalcore,57,22,11,228,52,7,8,0,15,Good for Exercise
+new wave,263,248,129,899,246,95,209,101,331,Good for Exercise
+nu metal,74,7,2,221,72,1,31,6,34,Good for Exercise
+pop,3355,4654,1985,7804,2179,1362,2449,966,3356,Good for Exercise
+pop punk,111,36,12,499,187,5,40,9,53,Good for Exercise
+pop rock,1148,1236,467,2960,757,311,804,237,1033,Good for Exercise
+post-hardcore,75,49,20,316,100,14,32,3,58,Good for Exercise
+post-punk,94,101,35,457,131,22,69,4,129,Good for Exercise
+power metal,50,18,9,140,25,3,16,0,17,Good for Exercise
+progressive metal,65,44,25,217,36,14,22,1,32,Good for Exercise
+progressive rock,391,446,161,919,341,106,237,45,326,Good for Exercise
+psychedelic,5,20,9,36,10,5,12,0,7,Good for Exercise
+psychedelic rock,141,421,120,634,158,73,192,34,255,Good for Exercise
+punk,241,178,61,1002,367,30,116,6,170,Good for Exercise
+punk rock,179,59,20,671,256,14,50,6,99,Good for Exercise
+rap,1590,243,80,3442,949,52,896,266,741,Good for Exercise
+reggae,389,116,39,899,215,27,719,81,436,Good for Exercise
+reggaeton,3,2,0,8,2,0,1,0,0,Good for Exercise
+rnb,102,205,71,265,60,53,152,76,207,Good for Exercise
+rock,2980,4071,1529,8671,2306,1035,2316,558,3264,Good for Exercise
+screamo,8,20,10,38,11,6,3,0,5,Good for Exercise
+shoegaze,20,119,43,110,23,26,30,2,52,Good for Work/Study
+soul,389,1226,466,1208,285,287,827,198,891,Good for Work/Study
+soundtrack,77,287,137,445,116,113,136,25,165,Good for Exercise
+swing,68,455,239,194,58,190,109,13,71,Good for Work/Study
+synthpop,491,365,128,1440,316,98,326,186,522,Good for Exercise
+techno,249,22,3,346,28,1,17,4,46,Good for Exercise
+thrash metal,234,11,4,319,227,1,12,0,11,Good for Exercise
+trance,147,88,32,464,139,21,70,39,115,Good for Exercise
+trap,2044,154,57,4118,1223,31,856,363,902,Good for Exercise
+trip-hop,33,37,12,70,11,6,20,4,21,Good for Exercise
+worship,14,14,8,66,5,6,6,0,2,Good for Exercise

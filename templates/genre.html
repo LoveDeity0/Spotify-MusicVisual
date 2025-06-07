@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Music Visualization</title>
+    <link rel="stylesheet" href="/static/genre.css">
+</head>
+<body>
+    <h1 class="main-title">音乐流派分布可视化</h1>
+    <div id="donut-chart"></div>
+    <div id="chart" class="chart-grid"></div>
+    <div id="ring-chart"></div>
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="{{ url_for('static', filename='genre.js') }}"></script>
+</body>
+</html>

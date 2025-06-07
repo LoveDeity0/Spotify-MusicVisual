@@ -1,0 +1,212 @@
+[
+  {
+    "year": "70s",
+    "genre": "alternative",
+    "value": 54
+  },
+  {
+    "year": "70s",
+    "genre": "christian",
+    "value": 2
+  },
+  {
+    "year": "70s",
+    "genre": "grunge",
+    "value": 47
+  },
+  {
+    "year": "70s",
+    "genre": "house",
+    "value": 4
+  },
+  {
+    "year": "70s",
+    "genre": "industrial",
+    "value": 4
+  },
+  {
+    "year": "70s",
+    "genre": "j-pop",
+    "value": 4
+  },
+  {
+    "year": "70s",
+    "genre": "lo-fi",
+    "value": 1
+  },
+  {
+    "year": "70s",
+    "genre": "metal",
+    "value": 540
+  },
+  {
+    "year": "70s",
+    "genre": "pop punk",
+    "value": 61
+  },
+  {
+    "year": "70s",
+    "genre": "post-hardcore",
+    "value": 1
+  },
+  {
+    "year": "70s",
+    "genre": "power metal",
+    "value": 1
+  },
+  {
+    "year": "70s",
+    "genre": "techno",
+    "value": 33
+  },
+  {
+    "year": "70s",
+    "genre": "trance",
+    "value": 2
+  },
+  {
+    "year": "80s",
+    "genre": "black metal",
+    "value": 6
+  },
+  {
+    "year": "80s",
+    "genre": "cloud rap",
+    "value": 2
+  },
+  {
+    "year": "80s",
+    "genre": "dancehall",
+    "value": 13
+  },
+  {
+    "year": "80s",
+    "genre": "death metal",
+    "value": 52
+  },
+  {
+    "year": "80s",
+    "genre": "doom metal",
+    "value": 16
+  },
+  {
+    "year": "80s",
+    "genre": "dream pop",
+    "value": 57
+  },
+  {
+    "year": "80s",
+    "genre": "grime",
+    "value": 1
+  },
+  {
+    "year": "80s",
+    "genre": "hardcore",
+    "value": 44
+  },
+  {
+    "year": "80s",
+    "genre": "math rock",
+    "value": 1
+  },
+  {
+    "year": "80s",
+    "genre": "melodic death metal",
+    "value": 10
+  },
+  {
+    "year": "80s",
+    "genre": "progressive metal",
+    "value": 199
+  },
+  {
+    "year": "80s",
+    "genre": "shoegaze",
+    "value": 11
+  },
+  {
+    "year": "80s",
+    "genre": "thrash metal",
+    "value": 244
+  },
+  {
+    "year": "80s",
+    "genre": "trap",
+    "value": 1
+  },
+  {
+    "year": "90s",
+    "genre": "chillout",
+    "value": 2
+  },
+  {
+    "year": "90s",
+    "genre": "deathcore",
+    "value": 2
+  },
+  {
+    "year": "90s",
+    "genre": "drum and bass",
+    "value": 11
+  },
+  {
+    "year": "90s",
+    "genre": "dubstep",
+    "value": 2
+  },
+  {
+    "year": "90s",
+    "genre": "emo",
+    "value": 98
+  },
+  {
+    "year": "90s",
+    "genre": "metalcore",
+    "value": 54
+  },
+  {
+    "year": "90s",
+    "genre": "nu metal",
+    "value": 198
+  },
+  {
+    "year": "90s",
+    "genre": "reggaeton",
+    "value": 1
+  },
+  {
+    "year": "90s",
+    "genre": "trip-hop",
+    "value": 97
+  },
+  {
+    "year": "90s",
+    "genre": "worship",
+    "value": 10
+  },
+  {
+    "year": "00s",
+    "genre": "chillwave",
+    "value": 8
+  },
+  {
+    "year": "00s",
+    "genre": "grime",
+    "value": 65
+  },
+  {
+    "year": "00s",
+    "genre": "k-pop",
+    "value": 37
+  },
+  {
+    "year": "00s",
+    "genre": "screamo",
+    "value": 192
+  },
+  {
+    "year": "10s",
+    "genre": "emo rap",
+    "value": 830
+  }
+]

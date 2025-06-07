@@ -1,0 +1,58 @@
+{
+    "Rock": {
+        "Classic Rock": ["classic rock", "hard rock", "rock"],
+        "Alternative Rock": ["alternative","alternative rock", "grunge", "new wave","shoegaze"],
+        "Punk": ["punk", "punk rock", "pop punk"],
+        "Progressive": ["progressive rock", "math rock", "psychedelic","psychedelic rock"],
+        "Post-Rock": ["emo","screamo"],
+        "Other Rock": ["garage rock", "post-hardcore","post-punk"]
+    },
+    "Electronic": {
+        "Dance": ["electro", "electronic"],
+        "House/Techno": ["house"],
+        "Bass": ["dub","dubstep", "drum and bass"],
+        "Ambient": ["ambient","chillout","trip-hop","experimental"],
+        "Industrial": ["industrial"]
+    },
+    "Pop": {
+        "Mainstream Pop": ["pop", "pop rock"],
+        "Indie Pop": ["britpop","indie", "indie pop","indie rock"],
+        "Regional Pop": ["j-pop", "k-pop"],
+        "Synth Pop": ["synthpop", "electropop"],
+        "Dream Pop": ["dream pop"]
+    },
+    "Hip-hop/Rap": {
+        "Traditional": ["hip hop", "hip-hop","rap"],
+        "New School": ["trap", "cloud rap", "emo rap","grime"],
+        "Lo-fi": ["lo-fi"]
+    },
+    "Metal": {
+        "Extreme": ["black metal", "death metal", "melodic death metal"],
+        "Core": ["hardcore", "deathcore", "metalcore"],
+        "Progressive": ["progressive metal"],
+        "Traditional": ["doom metal", "heavy metal", "metal","power metal","nu metal","thrash metal"]
+    },
+    "Dance": {
+        "Club": ["dance", "dancehall"],
+        "EDM": ["techno", "trance"],
+        "Funk/Disco":["funk","disco"]
+    },
+    "Folk/Country": {
+        "Folk": ["folk", "acoustic"],
+        "Country": ["country", "alt-country"],
+        "Roots": ["blues", "gospel", "jazz", "swing"]
+    },
+    "R&B/Soul": {
+        "R&B": ["rnb", "soul"],
+        "Gospel": [ "worship"]
+    },
+    "World": {
+        "Latin": ["latin", "reggae", "reggaeton"]
+    },
+    "Special": {
+        "Comedy": ["comedy"],
+        "Christian": ["christian"],
+        "Soundtrack":["soundtrack"],
+        "Classical": ["classical"]
+    }
+}

@@ -1,0 +1,369 @@
+{
+  "nodes": [
+    {
+      "name": "Good for Party", "color": "#d2ddf8"
+    },
+    {
+      "name": "Good for Work/Study", "color": "#fff0ca"
+    },
+    {
+      "name": "Good for Relaxation/Meditation", "color": "#c6d9f2"
+    },
+    {
+      "name": "Good for Exercise", "color": "#d0f0fd"
+    },
+    {
+      "name": "Good for Running", "color": "#ffc6c7"
+    },
+    {
+      "name": "Good for Yoga/Stretching", "color": "#ecdff0"
+    },
+    {
+      "name": "Good for Driving", "color": "#f9d5e5"
+    },
+    {
+      "name": "Good for Social Gatherings", "color": "#dce0f8"
+    },
+    {
+      "name": "Good for Morning Routine", "color": "#a0e7d9"
+    },
+    {
+      "name": "Instrumentalness", "color": "#ffdbdd"
+    },
+    {
+      "name": "Speechiness", "color": "#a0e7d9"
+    },
+    {
+      "name": "Acousticness", "color": "#85edff"
+    },
+    {
+      "name": "Liveness", "color": "#fff8eb"
+    },
+    {
+      "name": "Positiveness", "color": "#d0f0fd"
+    },
+    {
+      "name": "Danceability", "color": "#c7ffe7"
+    },
+    {
+      "name": "Energy", "color": "#f9f7e7"
+    }
+  ],
+  "links": [
+    {
+      "source": "Good for Exercise",
+      "target": "Energy",
+      "value": 0.77
+    },
+    {
+      "source": "Good for Exercise",
+      "target": "Danceability",
+      "value": 0.653
+    },
+    {
+      "source": "Good for Exercise",
+      "target": "Positiveness",
+      "value": 0.544
+    },
+    {
+      "source": "Good for Exercise",
+      "target": "Speechiness",
+      "value": 0.125
+    },
+    {
+      "source": "Good for Exercise",
+      "target": "Liveness",
+      "value": 0.196
+    },
+    {
+      "source": "Good for Exercise",
+      "target": "Acousticness",
+      "value": 0.132
+    },
+    {
+      "source": "Good for Exercise",
+      "target": "Instrumentalness",
+      "value": 0.045
+    },
+    {
+      "source": "Good for Party",
+      "target": "Energy",
+      "value": 0.774
+    },
+    {
+      "source": "Good for Party",
+      "target": "Danceability",
+      "value": 0.661
+    },
+    {
+      "source": "Good for Party",
+      "target": "Positiveness",
+      "value": 0.573
+    },
+    {
+      "source": "Good for Party",
+      "target": "Speechiness",
+      "value": 0.113
+    },
+    {
+      "source": "Good for Party",
+      "target": "Liveness",
+      "value": 0.185
+    },
+    {
+      "source": "Good for Party",
+      "target": "Acousticness",
+      "value": 0.129
+    },
+    {
+      "source": "Good for Party",
+      "target": "Instrumentalness",
+      "value": 0.038
+    },
+    {
+      "source": "Good for Work/Study",
+      "target": "Energy",
+      "value": 0.298
+    },
+    {
+      "source": "Good for Work/Study",
+      "target": "Danceability",
+      "value": 0.474
+    },
+    {
+      "source": "Good for Work/Study",
+      "target": "Positiveness",
+      "value": 0.304
+    },
+    {
+      "source": "Good for Work/Study",
+      "target": "Speechiness",
+      "value": 0.029
+    },
+    {
+      "source": "Good for Work/Study",
+      "target": "Liveness",
+      "value": 0.15
+    },
+    {
+      "source": "Good for Work/Study",
+      "target": "Acousticness",
+      "value": 0.762
+    },
+    {
+      "source": "Good for Work/Study",
+      "target": "Instrumentalness",
+      "value": 0.099
+    },
+    {
+      "source": "Good for Relaxation/Meditation",
+      "target": "Energy",
+      "value": 0.236
+    },
+    {
+      "source": "Good for Relaxation/Meditation",
+      "target": "Danceability",
+      "value": 0.413
+    },
+    {
+      "source": "Good for Relaxation/Meditation",
+      "target": "Positiveness",
+      "value": 0.26
+    },
+    {
+      "source": "Good for Relaxation/Meditation",
+      "target": "Speechiness",
+      "value": 0.027
+    },
+    {
+      "source": "Good for Relaxation/Meditation",
+      "target": "Liveness",
+      "value": 0.145
+    },
+    {
+      "source": "Good for Relaxation/Meditation",
+      "target": "Acousticness",
+      "value": 0.825
+    },
+    {
+      "source": "Good for Relaxation/Meditation",
+      "target": "Instrumentalness",
+      "value": 0.11
+    },
+    {
+      "source": "Good for Running",
+      "target": "Energy",
+      "value": 0.82
+    },
+    {
+      "source": "Good for Running",
+      "target": "Danceability",
+      "value": 0.618
+    },
+    {
+      "source": "Good for Running",
+      "target": "Positiveness",
+      "value": 0.583
+    },
+    {
+      "source": "Good for Running",
+      "target": "Speechiness",
+      "value": 0.152
+    },
+    {
+      "source": "Good for Running",
+      "target": "Liveness",
+      "value": 0.201
+    },
+    {
+      "source": "Good for Running",
+      "target": "Acousticness",
+      "value": 0.122
+    },
+    {
+      "source": "Good for Running",
+      "target": "Instrumentalness",
+      "value": 0.038
+    },
+    {
+      "source": "Good for Yoga/Stretching",
+      "target": "Energy",
+      "value": 0.18
+    },
+    {
+      "source": "Good for Yoga/Stretching",
+      "target": "Danceability",
+      "value": 0.392
+    },
+    {
+      "source": "Good for Yoga/Stretching",
+      "target": "Positiveness",
+      "value": 0.238
+    },
+    {
+      "source": "Good for Yoga/Stretching",
+      "target": "Speechiness",
+      "value": 0.025
+    },
+    {
+      "source": "Good for Yoga/Stretching",
+      "target": "Liveness",
+      "value": 0.138
+    },
+    {
+      "source": "Good for Yoga/Stretching",
+      "target": "Acousticness",
+      "value": 0.873
+    },
+    {
+      "source": "Good for Yoga/Stretching",
+      "target": "Instrumentalness",
+      "value": 0.126
+    },
+    {
+      "source": "Good for Driving",
+      "target": "Energy",
+      "value": 0.519
+    },
+    {
+      "source": "Good for Driving",
+      "target": "Danceability",
+      "value": 0.702
+    },
+    {
+      "source": "Good for Driving",
+      "target": "Positiveness",
+      "value": 0.438
+    },
+    {
+      "source": "Good for Driving",
+      "target": "Speechiness",
+      "value": 0.118
+    },
+    {
+      "source": "Good for Driving",
+      "target": "Liveness",
+      "value": 0.158
+    },
+    {
+      "source": "Good for Driving",
+      "target": "Acousticness",
+      "value": 0.145
+    },
+    {
+      "source": "Good for Driving",
+      "target": "Instrumentalness",
+      "value": 0.042
+    },
+    {
+      "source": "Good for Social Gatherings",
+      "target": "Energy",
+      "value": 0.607
+    },
+    {
+      "source": "Good for Social Gatherings",
+      "target": "Danceability",
+      "value": 0.759
+    },
+    {
+      "source": "Good for Social Gatherings",
+      "target": "Positiveness",
+      "value": 0.486
+    },
+    {
+      "source": "Good for Social Gatherings",
+      "target": "Speechiness",
+      "value": 0.074
+    },
+    {
+      "source": "Good for Social Gatherings",
+      "target": "Liveness",
+      "value": 0.156
+    },
+    {
+      "source": "Good for Social Gatherings",
+      "target": "Acousticness",
+      "value": 0.196
+    },
+    {
+      "source": "Good for Social Gatherings",
+      "target": "Instrumentalness",
+      "value": 0.041
+    },
+    {
+      "source": "Good for Morning Routine",
+      "target": "Energy",
+      "value": 0.607
+    },
+    {
+      "source": "Good for Morning Routine",
+      "target": "Danceability",
+      "value": 0.708
+    },
+    {
+      "source": "Good for Morning Routine",
+      "target": "Positiveness",
+      "value": 0.46
+    },
+    {
+      "source": "Good for Morning Routine",
+      "target": "Speechiness",
+      "value": 0.09
+    },
+    {
+      "source": "Good for Morning Routine",
+      "target": "Liveness",
+      "value": 0.166
+    },
+    {
+      "source": "Good for Morning Routine",
+      "target": "Acousticness",
+      "value": 0.145
+    },
+    {
+      "source": "Good for Morning Routine",
+      "target": "Instrumentalness",
+      "value": 0.05
+    }
+  ]
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Music Visualization</title>
+
+    <!-- ✅ 首页样式 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='home.css') }}">
+    <!-- ✅ 第二页样式 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='genre_show.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='genre.css') }}">
+    <!-- ✅ 第三页样式 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='barchart.css') }}">
+    <!-- ✅ 第四页样式 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='cards.css') }}">
+    <!-- ✅ 第五页样式 -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='10s.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='songs_change.css') }}">
+
+    <link rel="stylesheet" href="https://static.fontawesome.com/css/fontawesome-app.css">
+    <!-- 引入字体图标 -->
+    <link rel="stylesheet" href="/static/font/iconfont.css">
+    <!-- 引入字体 -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&amp;display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap">
+
+</head>
+<body>
+
+    <!-- ✅ 第1页 -->
+<!--    <div id="section1" class="home-section">-->
+<!--        <div class="a">-->
+<!--            <div class="b"><span>-->
+<!--                Spotify音乐数据集可视化-->
+<!--            </span></div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <div id="section1" class="parallax-section">
+      <h1>Spotify 音乐数据集可视化</h1>
+      <p>探索海量音乐背后的数据故事：分类、发展、演化，全部通过可视化一目了然。</p>
+      <a href="#details" class="cta-button">了解更多</a>
+    </div>
+    <!-- 在 details 中添加淡入效果容器 -->
+    <div id="details" class="content-section">
+      <h2>项目介绍</h2>
+      <p>
+        在数字音乐迅猛发展的今天，音乐不仅是文化表达的重要载体，更成为情感交流、用户画像建模与智能推荐系统中的关键媒介。随着 Spotify、网易云音乐等平台的大规模流行，用户每天接触数以百万计的曲目，而如何理解这些海量音乐背后的风格演变、情绪特征与语言内容变化趋势，已成为音乐推荐系统、情感计算和文化研究中的重要议题。
+      </p>
+      <p>
+        本项目基于 Spotify 公共数据集，利用现代数据可视化技术 <strong>D3.js</strong> 展示音乐的多维特征。通过图表的方式，用户可以直观了解音乐类型的演变趋势、艺人特征分布以及用户喜好变化等丰富内容。
+      </p>
+    </div>
+
+    <!-- ✅ 第2页 -->
+    <!-- 第一层级柱状图 -->
+    <div id="level1-observer-wrapper">
+        <div id="level1-wrapper">
+          <svg id="popularity-line"></svg>
+          <div id="bar-container"></div>
+        </div>
+    </div>
+    <!-- 第三层级弹出层 -->
+    <div id="level3-popup" style="display:none;">
+      <div id="chart">
+        <!-- 动态内容由JS填充 -->
+      </div>
+      <button class="close-btn" onclick="document.getElementById('level3-popup').style.display='none'">关闭</button>
+    </div>
+
+    <!-- ✅ 第3页：年代变化展示 -->
+    <div id="section4" class="viz-section2">
+        <div id="chart2"></div>
+    </div>
+
+    <!-- ✅ 第4页：每个时代一个词云图 -->
+    <div class="void" id="void">
+        <div id="explicit-arc-chart"></div>
+        <div class="crop">
+            <ul id="card-list" style="--count: 7;">
+                <li>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <a href="/decade/60s">
+                                <span class="model-name">60s</span>
+                                <img src="static/fig/wordcloud_1960s.svg" alt="60s">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <a href="/decade/70s">
+                                <span class="model-name">70s</span>
+                                <img src="static/fig/wordcloud_1970s.svg" alt="70s">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <a href="/decade/80s">
+                                <span class="model-name">80s</span>
+                                <img src="static/fig/wordcloud_1980s.svg" alt="80s">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <a href="/decade/90s">
+                                <span class="model-name">90s</span>
+                                <img src="static/fig/wordcloud_1990s.svg" alt="90s">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <a href="/decade/00s">
+                                <span class="model-name">00s</span>
+                                <img src="static/fig/wordcloud_2000s.svg" alt="00s">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <a href="/decade/10s">
+                                <span class="model-name">10s</span>
+                                <img src="static/fig/wordcloud_2010s.svg" alt="10s">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="card-wrapper">
+                        <div class="card">
+                            <a href="/decade/20s">
+                                <span class="model-name">20s</span>
+                                <img src="static/fig/wordcloud_2020s.svg" alt="20s">
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="last-circle"></div>
+            <div class="second-circle"></div>
+        </div>
+        <div class="mask"></div>
+        <div class="center-circle"></div>
+    </div>
+
+    <!-- ✅ 第5页：详细介绍10s的各种信息 -->
+    <div id="section6" class="viz-section3">
+
+        <!-- 南丁格尔玫瑰图容器 -->
+        <div id="nightingale-rose" style="position: absolute; top: 50px; left: 60px; width: 300px; height: 350px; display: flex; flex-direction: row; align-items: center;"></div>
+        <div id="boxplot-chart" style="width: 400px; height: 300px; top: 25px; left: 1000px; position: absolute;"></div>
+        <div id="matrix-chart" style="position: absolute; top: 460px; left: 970px; width=500px; height: 500px;"></div>
+        <div id="sankey-chart" style="position: absolute; top: 50px; left: 420px; width=600px; height: 300px;"></div>
+
+        <div class="frosted-box" style="position: absolute; top: 400px; left: 390px; width: 560px; text-align: center;">
+          <h2 class="minimal-title">
+            10s 音乐特征与热门歌曲展示
+          </h2>
+        </div>
+
+        <!-- 添加卡片轮播小框（左下角） -->
+        <div id="card-widget" class="singer" style="
+            position: absolute;
+            bottom: 0px;
+            left: 60px;
+            transform: scale(0.8);
+            z-index: 10;
+        ">
+            <div class="singer-top">
+                <ul class="main">
+                    <li>
+                        <img src="static/fig/1.png">
+                        <div class="text-one">Nayer</div>
+                        <div class="text-two">古巴裔美国女歌手、词曲作者</div>
+                        <div class="text-two">代表作：《Suave》《Suavemente》</div>
+                    </li>
+                    <li>
+                        <img src="static/fig/2.png">
+                        <div class="text-one">Regard</div>
+                        <div class="text-two">DJ兼制作人</div>
+                        <div class="text-two">代表作：《Good Vibes》</div>
+                    </li>
+                    <li>
+                        <img src="static/fig/3.png">
+                        <div class="text-one">Liana Flores</div>
+                        <div class="text-two">英国-巴西混血创作歌手和吉他手</div>
+                        <div class="text-two">代表作：《rises the moon》</div>
+                    </li>
+                </ul>
+            </div>
+            <ul class="singer-bottom">
+                <li class="list"><img src="static/fig/1.png"></li>
+                <li class="list"><img src="static/fig/2.png"></li>
+                <li class="list"><img src="static/fig/3.png"></li>
+            </ul>
+        </div>
+        <!-- 动态浮动歌曲展示容器 -->
+        <div id="card-widget1" class="shell" style="
+            position: absolute;
+            bottom: 10px;
+            left: 340px;
+            z-index: 10;
+        ">
+            <div class="shell_body">
+                <div class="button">
+                    <div class="prev"><i class="iconfont icon-backward_filled"></i></div>
+                    <div class="next"><i class="iconfont icon-forward_filled"></i></div>
+                </div>
+
+                <div class="shell_slider">
+                    <!-- 歌曲1 -->
+                    <div class="item">
+                        <div class="frame">
+                            <div class="box front">
+                                <h2>Press It</h2>
+                                <span>Bruno Mars</span>
+                                <audio controls>
+                                    <source src="../static/music/1.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div class="box left"></div>
+                            <div class="box right"></div>
+                        </div>
+                    </div>
+
+                    <!-- 歌曲2 -->
+                    <div class="item">
+                        <div class="frame">
+                            <div class="box front">
+                                <h2>Locked Out Of Heaven</h2>
+                                <span>Bruno Mars</span>
+                                <audio controls>
+                                    <source src="../static/music/2.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div class="box left"></div>
+                            <div class="box right"></div>
+                        </div>
+                    </div>
+
+                    <!-- 歌曲3 -->
+                    <div class="item">
+                        <div class="frame">
+                            <div class="box front">
+                                <h2>I Wanna Be Yours</h2>
+                                <span>Arctic Monkeys</span>
+                                <audio controls>
+                                    <source src="../static/music/3.mp3" type="audio/mpeg">
+                                    Your browser does not support the audio element.
+                                </audio>
+                            </div>
+                            <div class="box left"></div>
+                            <div class="box right"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- ✅ 脚本 -->
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js"></script>
+    <script src="{{ url_for('static', filename='main.js') }}"></script>
+    <script src="{{ url_for('static', filename='genre.js') }}"></script>
+    <script src="{{ url_for('static', filename='barchart.js') }}"></script>
+    <script src="{{ url_for('static', filename='genre_show.js') }}"></script>
+    <script src="{{ url_for('static', filename='NightingaleRoseChart.js') }}"></script>
+    <script src="{{ url_for('static', filename='draw_songs.js') }}"></script>
+    <script src="{{ url_for('static', filename='singers.js') }}"></script>
+    <script src="{{ url_for('static', filename='boxplot.js') }}"></script>
+    <script src="{{ url_for('static', filename='sankey.js') }}"></script>
+    <script src="{{ url_for('static', filename='matrix.js') }}"></script>
+    <script src="{{ url_for('static', filename='music_play.js') }}"></script>
+    <script src="{{ url_for('static', filename='huan.js') }}"></script>
+    <script src="{{ url_for('static', filename='songs_change.js') }}"></script>
+
+</body>
+</html>

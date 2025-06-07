@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #111;
+  color: white;
+  text-align: center;
+  overflow: hidden; /* 避免页面多余滚动条 */
+}
+
+#chart {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 0; /* 图形作为背景 */
+}
+
+/* ✅ 浮动解释框样式 */
+.floating-info {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  max-width: 300px;
+  background-color: rgba(0, 0, 0, 0.6);  /* 半透明背景 */
+  color: white;
+  padding: 15px;
+  border-radius: 10px;
+  z-index: 10;  /* 保证在图表上方 */
+  text-align: left;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+}
+
+/* 可选：鼠标悬停提示框样式 */
+.tooltip {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.7);
+  color: #000;
+  padding: 5px;
+  border-radius: 5px;
+  visibility: hidden;
+  z-index: 20;
+}

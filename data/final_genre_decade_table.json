@@ -1,0 +1,2909 @@
+{
+    "name": "root",
+    "children": [
+        {
+            "name": "acoustic",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 13
+                },
+                {
+                    "name": "70s",
+                    "value": 9
+                },
+                {
+                    "name": "80s",
+                    "value": 8
+                },
+                {
+                    "name": "90s",
+                    "value": 27
+                },
+                {
+                    "name": "00s",
+                    "value": 66
+                },
+                {
+                    "name": "10s",
+                    "value": 466
+                },
+                {
+                    "name": "20s",
+                    "value": 89
+                }
+            ]
+        },
+        {
+            "name": "alt-country",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 13
+                },
+                {
+                    "name": "70s",
+                    "value": 21
+                },
+                {
+                    "name": "80s",
+                    "value": 7
+                },
+                {
+                    "name": "90s",
+                    "value": 54
+                },
+                {
+                    "name": "00s",
+                    "value": 28
+                },
+                {
+                    "name": "10s",
+                    "value": 148
+                },
+                {
+                    "name": "20s",
+                    "value": 36
+                }
+            ]
+        },
+        {
+            "name": "alternative",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 54
+                },
+                {
+                    "name": "80s",
+                    "value": 94
+                },
+                {
+                    "name": "90s",
+                    "value": 272
+                },
+                {
+                    "name": "00s",
+                    "value": 301
+                },
+                {
+                    "name": "10s",
+                    "value": 1342
+                },
+                {
+                    "name": "20s",
+                    "value": 554
+                }
+            ]
+        },
+        {
+            "name": "alternative rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 17
+                },
+                {
+                    "name": "70s",
+                    "value": 189
+                },
+                {
+                    "name": "80s",
+                    "value": 1385
+                },
+                {
+                    "name": "90s",
+                    "value": 4477
+                },
+                {
+                    "name": "00s",
+                    "value": 5706
+                },
+                {
+                    "name": "10s",
+                    "value": 11186
+                },
+                {
+                    "name": "20s",
+                    "value": 4407
+                }
+            ]
+        },
+        {
+            "name": "ambient",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 2
+                },
+                {
+                    "name": "70s",
+                    "value": 14
+                },
+                {
+                    "name": "80s",
+                    "value": 34
+                },
+                {
+                    "name": "90s",
+                    "value": 181
+                },
+                {
+                    "name": "00s",
+                    "value": 257
+                },
+                {
+                    "name": "10s",
+                    "value": 1182
+                },
+                {
+                    "name": "20s",
+                    "value": 655
+                }
+            ]
+        },
+        {
+            "name": "black metal",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 6
+                },
+                {
+                    "name": "90s",
+                    "value": 100
+                },
+                {
+                    "name": "00s",
+                    "value": 175
+                },
+                {
+                    "name": "10s",
+                    "value": 461
+                },
+                {
+                    "name": "20s",
+                    "value": 244
+                }
+            ]
+        },
+        {
+            "name": "blues",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 741
+                },
+                {
+                    "name": "70s",
+                    "value": 590
+                },
+                {
+                    "name": "80s",
+                    "value": 514
+                },
+                {
+                    "name": "90s",
+                    "value": 794
+                },
+                {
+                    "name": "00s",
+                    "value": 702
+                },
+                {
+                    "name": "10s",
+                    "value": 2919
+                },
+                {
+                    "name": "20s",
+                    "value": 1959
+                }
+            ]
+        },
+        {
+            "name": "britpop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 90
+                },
+                {
+                    "name": "70s",
+                    "value": 88
+                },
+                {
+                    "name": "80s",
+                    "value": 76
+                },
+                {
+                    "name": "90s",
+                    "value": 45
+                },
+                {
+                    "name": "00s",
+                    "value": 30
+                },
+                {
+                    "name": "10s",
+                    "value": 150
+                },
+                {
+                    "name": "20s",
+                    "value": 51
+                }
+            ]
+        },
+        {
+            "name": "chillout",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 2
+                },
+                {
+                    "name": "00s",
+                    "value": 19
+                },
+                {
+                    "name": "10s",
+                    "value": 66
+                },
+                {
+                    "name": "20s",
+                    "value": 30
+                }
+            ]
+        },
+        {
+            "name": "chillwave",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 0
+                },
+                {
+                    "name": "00s",
+                    "value": 8
+                },
+                {
+                    "name": "10s",
+                    "value": 286
+                },
+                {
+                    "name": "20s",
+                    "value": 218
+                }
+            ]
+        },
+        {
+            "name": "christian",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 2
+                },
+                {
+                    "name": "80s",
+                    "value": 36
+                },
+                {
+                    "name": "90s",
+                    "value": 86
+                },
+                {
+                    "name": "00s",
+                    "value": 195
+                },
+                {
+                    "name": "10s",
+                    "value": 534
+                },
+                {
+                    "name": "20s",
+                    "value": 224
+                }
+            ]
+        },
+        {
+            "name": "classic rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 100
+                },
+                {
+                    "name": "70s",
+                    "value": 1136
+                },
+                {
+                    "name": "80s",
+                    "value": 771
+                },
+                {
+                    "name": "90s",
+                    "value": 378
+                },
+                {
+                    "name": "00s",
+                    "value": 404
+                },
+                {
+                    "name": "10s",
+                    "value": 770
+                },
+                {
+                    "name": "20s",
+                    "value": 414
+                }
+            ]
+        },
+        {
+            "name": "classical",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 20
+                },
+                {
+                    "name": "70s",
+                    "value": 232
+                },
+                {
+                    "name": "80s",
+                    "value": 163
+                },
+                {
+                    "name": "90s",
+                    "value": 196
+                },
+                {
+                    "name": "00s",
+                    "value": 327
+                },
+                {
+                    "name": "10s",
+                    "value": 1868
+                },
+                {
+                    "name": "20s",
+                    "value": 1047
+                }
+            ]
+        },
+        {
+            "name": "cloud rap",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 2
+                },
+                {
+                    "name": "90s",
+                    "value": 10
+                },
+                {
+                    "name": "00s",
+                    "value": 22
+                },
+                {
+                    "name": "10s",
+                    "value": 1352
+                },
+                {
+                    "name": "20s",
+                    "value": 563
+                }
+            ]
+        },
+        {
+            "name": "comedy",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 3
+                },
+                {
+                    "name": "70s",
+                    "value": 1
+                },
+                {
+                    "name": "80s",
+                    "value": 34
+                },
+                {
+                    "name": "90s",
+                    "value": 148
+                },
+                {
+                    "name": "00s",
+                    "value": 140
+                },
+                {
+                    "name": "10s",
+                    "value": 369
+                },
+                {
+                    "name": "20s",
+                    "value": 140
+                }
+            ]
+        },
+        {
+            "name": "country",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 412
+                },
+                {
+                    "name": "70s",
+                    "value": 834
+                },
+                {
+                    "name": "80s",
+                    "value": 743
+                },
+                {
+                    "name": "90s",
+                    "value": 1177
+                },
+                {
+                    "name": "00s",
+                    "value": 1265
+                },
+                {
+                    "name": "10s",
+                    "value": 3509
+                },
+                {
+                    "name": "20s",
+                    "value": 2030
+                }
+            ]
+        },
+        {
+            "name": "dance",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 44
+                },
+                {
+                    "name": "70s",
+                    "value": 42
+                },
+                {
+                    "name": "80s",
+                    "value": 155
+                },
+                {
+                    "name": "90s",
+                    "value": 454
+                },
+                {
+                    "name": "00s",
+                    "value": 544
+                },
+                {
+                    "name": "10s",
+                    "value": 1384
+                },
+                {
+                    "name": "20s",
+                    "value": 605
+                }
+            ]
+        },
+        {
+            "name": "dancehall",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 13
+                },
+                {
+                    "name": "90s",
+                    "value": 62
+                },
+                {
+                    "name": "00s",
+                    "value": 123
+                },
+                {
+                    "name": "10s",
+                    "value": 707
+                },
+                {
+                    "name": "20s",
+                    "value": 330
+                }
+            ]
+        },
+        {
+            "name": "death metal",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 52
+                },
+                {
+                    "name": "90s",
+                    "value": 260
+                },
+                {
+                    "name": "00s",
+                    "value": 480
+                },
+                {
+                    "name": "10s",
+                    "value": 845
+                },
+                {
+                    "name": "20s",
+                    "value": 323
+                }
+            ]
+        },
+        {
+            "name": "deathcore",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 2
+                },
+                {
+                    "name": "00s",
+                    "value": 90
+                },
+                {
+                    "name": "10s",
+                    "value": 596
+                },
+                {
+                    "name": "20s",
+                    "value": 160
+                }
+            ]
+        },
+        {
+            "name": "disco",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 39
+                },
+                {
+                    "name": "70s",
+                    "value": 331
+                },
+                {
+                    "name": "80s",
+                    "value": 273
+                },
+                {
+                    "name": "90s",
+                    "value": 113
+                },
+                {
+                    "name": "00s",
+                    "value": 128
+                },
+                {
+                    "name": "10s",
+                    "value": 392
+                },
+                {
+                    "name": "20s",
+                    "value": 213
+                }
+            ]
+        },
+        {
+            "name": "doom metal",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 16
+                },
+                {
+                    "name": "90s",
+                    "value": 70
+                },
+                {
+                    "name": "00s",
+                    "value": 98
+                },
+                {
+                    "name": "10s",
+                    "value": 340
+                },
+                {
+                    "name": "20s",
+                    "value": 172
+                }
+            ]
+        },
+        {
+            "name": "dream pop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 57
+                },
+                {
+                    "name": "90s",
+                    "value": 156
+                },
+                {
+                    "name": "00s",
+                    "value": 225
+                },
+                {
+                    "name": "10s",
+                    "value": 965
+                },
+                {
+                    "name": "20s",
+                    "value": 249
+                }
+            ]
+        },
+        {
+            "name": "drum and bass",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 11
+                },
+                {
+                    "name": "00s",
+                    "value": 58
+                },
+                {
+                    "name": "10s",
+                    "value": 733
+                },
+                {
+                    "name": "20s",
+                    "value": 422
+                }
+            ]
+        },
+        {
+            "name": "dub",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 1
+                },
+                {
+                    "name": "70s",
+                    "value": 29
+                },
+                {
+                    "name": "80s",
+                    "value": 32
+                },
+                {
+                    "name": "90s",
+                    "value": 18
+                },
+                {
+                    "name": "00s",
+                    "value": 329
+                },
+                {
+                    "name": "10s",
+                    "value": 429
+                },
+                {
+                    "name": "20s",
+                    "value": 287
+                }
+            ]
+        },
+        {
+            "name": "dubstep",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 2
+                },
+                {
+                    "name": "00s",
+                    "value": 45
+                },
+                {
+                    "name": "10s",
+                    "value": 402
+                },
+                {
+                    "name": "20s",
+                    "value": 128
+                }
+            ]
+        },
+        {
+            "name": "electro",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 1
+                },
+                {
+                    "name": "70s",
+                    "value": 3
+                },
+                {
+                    "name": "80s",
+                    "value": 8
+                },
+                {
+                    "name": "90s",
+                    "value": 76
+                },
+                {
+                    "name": "00s",
+                    "value": 82
+                },
+                {
+                    "name": "10s",
+                    "value": 318
+                },
+                {
+                    "name": "20s",
+                    "value": 115
+                }
+            ]
+        },
+        {
+            "name": "electronic",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 39
+                },
+                {
+                    "name": "70s",
+                    "value": 665
+                },
+                {
+                    "name": "80s",
+                    "value": 1026
+                },
+                {
+                    "name": "90s",
+                    "value": 1275
+                },
+                {
+                    "name": "00s",
+                    "value": 1858
+                },
+                {
+                    "name": "10s",
+                    "value": 6899
+                },
+                {
+                    "name": "20s",
+                    "value": 2933
+                }
+            ]
+        },
+        {
+            "name": "electropop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 1
+                },
+                {
+                    "name": "70s",
+                    "value": 4
+                },
+                {
+                    "name": "80s",
+                    "value": 3
+                },
+                {
+                    "name": "90s",
+                    "value": 254
+                },
+                {
+                    "name": "00s",
+                    "value": 749
+                },
+                {
+                    "name": "10s",
+                    "value": 2897
+                },
+                {
+                    "name": "20s",
+                    "value": 1841
+                }
+            ]
+        },
+        {
+            "name": "emo",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 1
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 98
+                },
+                {
+                    "name": "00s",
+                    "value": 605
+                },
+                {
+                    "name": "10s",
+                    "value": 1774
+                },
+                {
+                    "name": "20s",
+                    "value": 471
+                }
+            ]
+        },
+        {
+            "name": "emo rap",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 0
+                },
+                {
+                    "name": "00s",
+                    "value": 0
+                },
+                {
+                    "name": "10s",
+                    "value": 830
+                },
+                {
+                    "name": "20s",
+                    "value": 423
+                }
+            ]
+        },
+        {
+            "name": "experimental",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 12
+                },
+                {
+                    "name": "70s",
+                    "value": 94
+                },
+                {
+                    "name": "80s",
+                    "value": 132
+                },
+                {
+                    "name": "90s",
+                    "value": 174
+                },
+                {
+                    "name": "00s",
+                    "value": 446
+                },
+                {
+                    "name": "10s",
+                    "value": 1268
+                },
+                {
+                    "name": "20s",
+                    "value": 450
+                }
+            ]
+        },
+        {
+            "name": "folk",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 532
+                },
+                {
+                    "name": "70s",
+                    "value": 1569
+                },
+                {
+                    "name": "80s",
+                    "value": 1036
+                },
+                {
+                    "name": "90s",
+                    "value": 1209
+                },
+                {
+                    "name": "00s",
+                    "value": 1916
+                },
+                {
+                    "name": "10s",
+                    "value": 4928
+                },
+                {
+                    "name": "20s",
+                    "value": 1878
+                }
+            ]
+        },
+        {
+            "name": "funk",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 134
+                },
+                {
+                    "name": "70s",
+                    "value": 553
+                },
+                {
+                    "name": "80s",
+                    "value": 315
+                },
+                {
+                    "name": "90s",
+                    "value": 190
+                },
+                {
+                    "name": "00s",
+                    "value": 312
+                },
+                {
+                    "name": "10s",
+                    "value": 1737
+                },
+                {
+                    "name": "20s",
+                    "value": 1272
+                }
+            ]
+        },
+        {
+            "name": "garage rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 49
+                },
+                {
+                    "name": "70s",
+                    "value": 77
+                },
+                {
+                    "name": "80s",
+                    "value": 74
+                },
+                {
+                    "name": "90s",
+                    "value": 72
+                },
+                {
+                    "name": "00s",
+                    "value": 141
+                },
+                {
+                    "name": "10s",
+                    "value": 481
+                },
+                {
+                    "name": "20s",
+                    "value": 124
+                }
+            ]
+        },
+        {
+            "name": "gospel",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 205
+                },
+                {
+                    "name": "70s",
+                    "value": 223
+                },
+                {
+                    "name": "80s",
+                    "value": 48
+                },
+                {
+                    "name": "90s",
+                    "value": 138
+                },
+                {
+                    "name": "00s",
+                    "value": 275
+                },
+                {
+                    "name": "10s",
+                    "value": 499
+                },
+                {
+                    "name": "20s",
+                    "value": 400
+                }
+            ]
+        },
+        {
+            "name": "grime",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 1
+                },
+                {
+                    "name": "90s",
+                    "value": 0
+                },
+                {
+                    "name": "00s",
+                    "value": 65
+                },
+                {
+                    "name": "10s",
+                    "value": 354
+                },
+                {
+                    "name": "20s",
+                    "value": 168
+                }
+            ]
+        },
+        {
+            "name": "grunge",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 47
+                },
+                {
+                    "name": "80s",
+                    "value": 92
+                },
+                {
+                    "name": "90s",
+                    "value": 445
+                },
+                {
+                    "name": "00s",
+                    "value": 242
+                },
+                {
+                    "name": "10s",
+                    "value": 386
+                },
+                {
+                    "name": "20s",
+                    "value": 183
+                }
+            ]
+        },
+        {
+            "name": "hard rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 344
+                },
+                {
+                    "name": "70s",
+                    "value": 853
+                },
+                {
+                    "name": "80s",
+                    "value": 850
+                },
+                {
+                    "name": "90s",
+                    "value": 809
+                },
+                {
+                    "name": "00s",
+                    "value": 1032
+                },
+                {
+                    "name": "10s",
+                    "value": 2709
+                },
+                {
+                    "name": "20s",
+                    "value": 1074
+                }
+            ]
+        },
+        {
+            "name": "hardcore",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 44
+                },
+                {
+                    "name": "90s",
+                    "value": 78
+                },
+                {
+                    "name": "00s",
+                    "value": 175
+                },
+                {
+                    "name": "10s",
+                    "value": 469
+                },
+                {
+                    "name": "20s",
+                    "value": 189
+                }
+            ]
+        },
+        {
+            "name": "heavy metal",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 23
+                },
+                {
+                    "name": "70s",
+                    "value": 788
+                },
+                {
+                    "name": "80s",
+                    "value": 1411
+                },
+                {
+                    "name": "90s",
+                    "value": 1419
+                },
+                {
+                    "name": "00s",
+                    "value": 1345
+                },
+                {
+                    "name": "10s",
+                    "value": 2813
+                },
+                {
+                    "name": "20s",
+                    "value": 1316
+                }
+            ]
+        },
+        {
+            "name": "hip hop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 480
+                },
+                {
+                    "name": "70s",
+                    "value": 712
+                },
+                {
+                    "name": "80s",
+                    "value": 1346
+                },
+                {
+                    "name": "90s",
+                    "value": 6861
+                },
+                {
+                    "name": "00s",
+                    "value": 13560
+                },
+                {
+                    "name": "10s",
+                    "value": 101084
+                },
+                {
+                    "name": "20s",
+                    "value": 50960
+                }
+            ]
+        },
+        {
+            "name": "hip-hop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 2
+                },
+                {
+                    "name": "70s",
+                    "value": 1
+                },
+                {
+                    "name": "80s",
+                    "value": 63
+                },
+                {
+                    "name": "90s",
+                    "value": 1006
+                },
+                {
+                    "name": "00s",
+                    "value": 1292
+                },
+                {
+                    "name": "10s",
+                    "value": 2295
+                },
+                {
+                    "name": "20s",
+                    "value": 1496
+                }
+            ]
+        },
+        {
+            "name": "house",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 4
+                },
+                {
+                    "name": "80s",
+                    "value": 78
+                },
+                {
+                    "name": "90s",
+                    "value": 175
+                },
+                {
+                    "name": "00s",
+                    "value": 204
+                },
+                {
+                    "name": "10s",
+                    "value": 777
+                },
+                {
+                    "name": "20s",
+                    "value": 420
+                }
+            ]
+        },
+        {
+            "name": "indie",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 1
+                },
+                {
+                    "name": "70s",
+                    "value": 4
+                },
+                {
+                    "name": "80s",
+                    "value": 23
+                },
+                {
+                    "name": "90s",
+                    "value": 265
+                },
+                {
+                    "name": "00s",
+                    "value": 887
+                },
+                {
+                    "name": "10s",
+                    "value": 2510
+                },
+                {
+                    "name": "20s",
+                    "value": 902
+                }
+            ]
+        },
+        {
+            "name": "indie pop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 7
+                },
+                {
+                    "name": "70s",
+                    "value": 11
+                },
+                {
+                    "name": "80s",
+                    "value": 104
+                },
+                {
+                    "name": "90s",
+                    "value": 434
+                },
+                {
+                    "name": "00s",
+                    "value": 1040
+                },
+                {
+                    "name": "10s",
+                    "value": 4731
+                },
+                {
+                    "name": "20s",
+                    "value": 1664
+                }
+            ]
+        },
+        {
+            "name": "indie rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 3
+                },
+                {
+                    "name": "70s",
+                    "value": 30
+                },
+                {
+                    "name": "80s",
+                    "value": 181
+                },
+                {
+                    "name": "90s",
+                    "value": 1490
+                },
+                {
+                    "name": "00s",
+                    "value": 2999
+                },
+                {
+                    "name": "10s",
+                    "value": 8523
+                },
+                {
+                    "name": "20s",
+                    "value": 2721
+                }
+            ]
+        },
+        {
+            "name": "industrial",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 4
+                },
+                {
+                    "name": "80s",
+                    "value": 98
+                },
+                {
+                    "name": "90s",
+                    "value": 272
+                },
+                {
+                    "name": "00s",
+                    "value": 188
+                },
+                {
+                    "name": "10s",
+                    "value": 602
+                },
+                {
+                    "name": "20s",
+                    "value": 263
+                }
+            ]
+        },
+        {
+            "name": "j-pop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 4
+                },
+                {
+                    "name": "80s",
+                    "value": 5
+                },
+                {
+                    "name": "90s",
+                    "value": 7
+                },
+                {
+                    "name": "00s",
+                    "value": 46
+                },
+                {
+                    "name": "10s",
+                    "value": 329
+                },
+                {
+                    "name": "20s",
+                    "value": 248
+                }
+            ]
+        },
+        {
+            "name": "jazz",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 481
+                },
+                {
+                    "name": "70s",
+                    "value": 467
+                },
+                {
+                    "name": "80s",
+                    "value": 521
+                },
+                {
+                    "name": "90s",
+                    "value": 786
+                },
+                {
+                    "name": "00s",
+                    "value": 1227
+                },
+                {
+                    "name": "10s",
+                    "value": 3689
+                },
+                {
+                    "name": "20s",
+                    "value": 2828
+                }
+            ]
+        },
+        {
+            "name": "k-pop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 0
+                },
+                {
+                    "name": "00s",
+                    "value": 37
+                },
+                {
+                    "name": "10s",
+                    "value": 358
+                },
+                {
+                    "name": "20s",
+                    "value": 736
+                }
+            ]
+        },
+        {
+            "name": "latin",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 8
+                },
+                {
+                    "name": "70s",
+                    "value": 1
+                },
+                {
+                    "name": "80s",
+                    "value": 6
+                },
+                {
+                    "name": "90s",
+                    "value": 43
+                },
+                {
+                    "name": "00s",
+                    "value": 37
+                },
+                {
+                    "name": "10s",
+                    "value": 462
+                },
+                {
+                    "name": "20s",
+                    "value": 224
+                }
+            ]
+        },
+        {
+            "name": "lo-fi",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 1
+                },
+                {
+                    "name": "80s",
+                    "value": 5
+                },
+                {
+                    "name": "90s",
+                    "value": 126
+                },
+                {
+                    "name": "00s",
+                    "value": 180
+                },
+                {
+                    "name": "10s",
+                    "value": 1013
+                },
+                {
+                    "name": "20s",
+                    "value": 367
+                }
+            ]
+        },
+        {
+            "name": "math rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 1
+                },
+                {
+                    "name": "90s",
+                    "value": 61
+                },
+                {
+                    "name": "00s",
+                    "value": 92
+                },
+                {
+                    "name": "10s",
+                    "value": 211
+                },
+                {
+                    "name": "20s",
+                    "value": 80
+                }
+            ]
+        },
+        {
+            "name": "melodic death metal",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 10
+                },
+                {
+                    "name": "90s",
+                    "value": 124
+                },
+                {
+                    "name": "00s",
+                    "value": 334
+                },
+                {
+                    "name": "10s",
+                    "value": 660
+                },
+                {
+                    "name": "20s",
+                    "value": 136
+                }
+            ]
+        },
+        {
+            "name": "metal",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 540
+                },
+                {
+                    "name": "80s",
+                    "value": 1094
+                },
+                {
+                    "name": "90s",
+                    "value": 1629
+                },
+                {
+                    "name": "00s",
+                    "value": 2169
+                },
+                {
+                    "name": "10s",
+                    "value": 3866
+                },
+                {
+                    "name": "20s",
+                    "value": 1738
+                }
+            ]
+        },
+        {
+            "name": "metalcore",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 54
+                },
+                {
+                    "name": "00s",
+                    "value": 417
+                },
+                {
+                    "name": "10s",
+                    "value": 2048
+                },
+                {
+                    "name": "20s",
+                    "value": 703
+                }
+            ]
+        },
+        {
+            "name": "new wave",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 17
+                },
+                {
+                    "name": "70s",
+                    "value": 335
+                },
+                {
+                    "name": "80s",
+                    "value": 1065
+                },
+                {
+                    "name": "90s",
+                    "value": 374
+                },
+                {
+                    "name": "00s",
+                    "value": 327
+                },
+                {
+                    "name": "10s",
+                    "value": 1087
+                },
+                {
+                    "name": "20s",
+                    "value": 594
+                }
+            ]
+        },
+        {
+            "name": "nu metal",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 198
+                },
+                {
+                    "name": "00s",
+                    "value": 482
+                },
+                {
+                    "name": "10s",
+                    "value": 493
+                },
+                {
+                    "name": "20s",
+                    "value": 305
+                }
+            ]
+        },
+        {
+            "name": "pop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 1537
+                },
+                {
+                    "name": "70s",
+                    "value": 2752
+                },
+                {
+                    "name": "80s",
+                    "value": 3474
+                },
+                {
+                    "name": "90s",
+                    "value": 4479
+                },
+                {
+                    "name": "00s",
+                    "value": 5376
+                },
+                {
+                    "name": "10s",
+                    "value": 15755
+                },
+                {
+                    "name": "20s",
+                    "value": 9316
+                }
+            ]
+        },
+        {
+            "name": "pop punk",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 61
+                },
+                {
+                    "name": "80s",
+                    "value": 82
+                },
+                {
+                    "name": "90s",
+                    "value": 197
+                },
+                {
+                    "name": "00s",
+                    "value": 577
+                },
+                {
+                    "name": "10s",
+                    "value": 1409
+                },
+                {
+                    "name": "20s",
+                    "value": 469
+                }
+            ]
+        },
+        {
+            "name": "pop rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 412
+                },
+                {
+                    "name": "70s",
+                    "value": 1584
+                },
+                {
+                    "name": "80s",
+                    "value": 1902
+                },
+                {
+                    "name": "90s",
+                    "value": 1907
+                },
+                {
+                    "name": "00s",
+                    "value": 2031
+                },
+                {
+                    "name": "10s",
+                    "value": 4951
+                },
+                {
+                    "name": "20s",
+                    "value": 2135
+                }
+            ]
+        },
+        {
+            "name": "post-hardcore",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 1
+                },
+                {
+                    "name": "80s",
+                    "value": 4
+                },
+                {
+                    "name": "90s",
+                    "value": 113
+                },
+                {
+                    "name": "00s",
+                    "value": 480
+                },
+                {
+                    "name": "10s",
+                    "value": 2111
+                },
+                {
+                    "name": "20s",
+                    "value": 573
+                }
+            ]
+        },
+        {
+            "name": "post-punk",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 11
+                },
+                {
+                    "name": "70s",
+                    "value": 101
+                },
+                {
+                    "name": "80s",
+                    "value": 339
+                },
+                {
+                    "name": "90s",
+                    "value": 172
+                },
+                {
+                    "name": "00s",
+                    "value": 256
+                },
+                {
+                    "name": "10s",
+                    "value": 1053
+                },
+                {
+                    "name": "20s",
+                    "value": 406
+                }
+            ]
+        },
+        {
+            "name": "power metal",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 1
+                },
+                {
+                    "name": "80s",
+                    "value": 42
+                },
+                {
+                    "name": "90s",
+                    "value": 163
+                },
+                {
+                    "name": "00s",
+                    "value": 232
+                },
+                {
+                    "name": "10s",
+                    "value": 703
+                },
+                {
+                    "name": "20s",
+                    "value": 243
+                }
+            ]
+        },
+        {
+            "name": "progressive metal",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 199
+                },
+                {
+                    "name": "90s",
+                    "value": 320
+                },
+                {
+                    "name": "00s",
+                    "value": 656
+                },
+                {
+                    "name": "10s",
+                    "value": 1390
+                },
+                {
+                    "name": "20s",
+                    "value": 523
+                }
+            ]
+        },
+        {
+            "name": "progressive rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 340
+                },
+                {
+                    "name": "70s",
+                    "value": 883
+                },
+                {
+                    "name": "80s",
+                    "value": 619
+                },
+                {
+                    "name": "90s",
+                    "value": 718
+                },
+                {
+                    "name": "00s",
+                    "value": 693
+                },
+                {
+                    "name": "10s",
+                    "value": 2274
+                },
+                {
+                    "name": "20s",
+                    "value": 1236
+                }
+            ]
+        },
+        {
+            "name": "psychedelic",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 3
+                },
+                {
+                    "name": "70s",
+                    "value": 7
+                },
+                {
+                    "name": "80s",
+                    "value": 2
+                },
+                {
+                    "name": "90s",
+                    "value": 13
+                },
+                {
+                    "name": "00s",
+                    "value": 25
+                },
+                {
+                    "name": "10s",
+                    "value": 143
+                },
+                {
+                    "name": "20s",
+                    "value": 31
+                }
+            ]
+        },
+        {
+            "name": "psychedelic rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 660
+                },
+                {
+                    "name": "70s",
+                    "value": 814
+                },
+                {
+                    "name": "80s",
+                    "value": 287
+                },
+                {
+                    "name": "90s",
+                    "value": 369
+                },
+                {
+                    "name": "00s",
+                    "value": 287
+                },
+                {
+                    "name": "10s",
+                    "value": 1554
+                },
+                {
+                    "name": "20s",
+                    "value": 580
+                }
+            ]
+        },
+        {
+            "name": "punk",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 11
+                },
+                {
+                    "name": "70s",
+                    "value": 409
+                },
+                {
+                    "name": "80s",
+                    "value": 807
+                },
+                {
+                    "name": "90s",
+                    "value": 1122
+                },
+                {
+                    "name": "00s",
+                    "value": 1287
+                },
+                {
+                    "name": "10s",
+                    "value": 2799
+                },
+                {
+                    "name": "20s",
+                    "value": 1093
+                }
+            ]
+        },
+        {
+            "name": "punk rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 1
+                },
+                {
+                    "name": "70s",
+                    "value": 292
+                },
+                {
+                    "name": "80s",
+                    "value": 458
+                },
+                {
+                    "name": "90s",
+                    "value": 627
+                },
+                {
+                    "name": "00s",
+                    "value": 710
+                },
+                {
+                    "name": "10s",
+                    "value": 1746
+                },
+                {
+                    "name": "20s",
+                    "value": 600
+                }
+            ]
+        },
+        {
+            "name": "rap",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 2
+                },
+                {
+                    "name": "70s",
+                    "value": 44
+                },
+                {
+                    "name": "80s",
+                    "value": 129
+                },
+                {
+                    "name": "90s",
+                    "value": 462
+                },
+                {
+                    "name": "00s",
+                    "value": 1220
+                },
+                {
+                    "name": "10s",
+                    "value": 6766
+                },
+                {
+                    "name": "20s",
+                    "value": 3125
+                }
+            ]
+        },
+        {
+            "name": "reggae",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 7
+                },
+                {
+                    "name": "70s",
+                    "value": 103
+                },
+                {
+                    "name": "80s",
+                    "value": 242
+                },
+                {
+                    "name": "90s",
+                    "value": 343
+                },
+                {
+                    "name": "00s",
+                    "value": 1127
+                },
+                {
+                    "name": "10s",
+                    "value": 1889
+                },
+                {
+                    "name": "20s",
+                    "value": 2050
+                }
+            ]
+        },
+        {
+            "name": "reggaeton",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 1
+                },
+                {
+                    "name": "00s",
+                    "value": 2
+                },
+                {
+                    "name": "10s",
+                    "value": 14
+                },
+                {
+                    "name": "20s",
+                    "value": 11
+                }
+            ]
+        },
+        {
+            "name": "rnb",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 80
+                },
+                {
+                    "name": "70s",
+                    "value": 92
+                },
+                {
+                    "name": "80s",
+                    "value": 130
+                },
+                {
+                    "name": "90s",
+                    "value": 263
+                },
+                {
+                    "name": "00s",
+                    "value": 314
+                },
+                {
+                    "name": "10s",
+                    "value": 715
+                },
+                {
+                    "name": "20s",
+                    "value": 433
+                }
+            ]
+        },
+        {
+            "name": "rock",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 1684
+                },
+                {
+                    "name": "70s",
+                    "value": 5448
+                },
+                {
+                    "name": "80s",
+                    "value": 6007
+                },
+                {
+                    "name": "90s",
+                    "value": 7941
+                },
+                {
+                    "name": "00s",
+                    "value": 8710
+                },
+                {
+                    "name": "10s",
+                    "value": 17622
+                },
+                {
+                    "name": "20s",
+                    "value": 8229
+                }
+            ]
+        },
+        {
+            "name": "screamo",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 0
+                },
+                {
+                    "name": "00s",
+                    "value": 192
+                },
+                {
+                    "name": "10s",
+                    "value": 373
+                },
+                {
+                    "name": "20s",
+                    "value": 118
+                }
+            ]
+        },
+        {
+            "name": "shoegaze",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 11
+                },
+                {
+                    "name": "90s",
+                    "value": 454
+                },
+                {
+                    "name": "00s",
+                    "value": 191
+                },
+                {
+                    "name": "10s",
+                    "value": 710
+                },
+                {
+                    "name": "20s",
+                    "value": 207
+                }
+            ]
+        },
+        {
+            "name": "soul",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 375
+                },
+                {
+                    "name": "70s",
+                    "value": 768
+                },
+                {
+                    "name": "80s",
+                    "value": 609
+                },
+                {
+                    "name": "90s",
+                    "value": 1061
+                },
+                {
+                    "name": "00s",
+                    "value": 1220
+                },
+                {
+                    "name": "10s",
+                    "value": 4053
+                },
+                {
+                    "name": "20s",
+                    "value": 2048
+                }
+            ]
+        },
+        {
+            "name": "soundtrack",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 11
+                },
+                {
+                    "name": "70s",
+                    "value": 44
+                },
+                {
+                    "name": "80s",
+                    "value": 46
+                },
+                {
+                    "name": "90s",
+                    "value": 97
+                },
+                {
+                    "name": "00s",
+                    "value": 249
+                },
+                {
+                    "name": "10s",
+                    "value": 1301
+                },
+                {
+                    "name": "20s",
+                    "value": 639
+                }
+            ]
+        },
+        {
+            "name": "swing",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 112
+                },
+                {
+                    "name": "70s",
+                    "value": 37
+                },
+                {
+                    "name": "80s",
+                    "value": 32
+                },
+                {
+                    "name": "90s",
+                    "value": 176
+                },
+                {
+                    "name": "00s",
+                    "value": 148
+                },
+                {
+                    "name": "10s",
+                    "value": 838
+                },
+                {
+                    "name": "20s",
+                    "value": 802
+                }
+            ]
+        },
+        {
+            "name": "synthpop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 46
+                },
+                {
+                    "name": "70s",
+                    "value": 278
+                },
+                {
+                    "name": "80s",
+                    "value": 1195
+                },
+                {
+                    "name": "90s",
+                    "value": 541
+                },
+                {
+                    "name": "00s",
+                    "value": 776
+                },
+                {
+                    "name": "10s",
+                    "value": 2384
+                },
+                {
+                    "name": "20s",
+                    "value": 1166
+                }
+            ]
+        },
+        {
+            "name": "techno",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 33
+                },
+                {
+                    "name": "80s",
+                    "value": 16
+                },
+                {
+                    "name": "90s",
+                    "value": 42
+                },
+                {
+                    "name": "00s",
+                    "value": 28
+                },
+                {
+                    "name": "10s",
+                    "value": 420
+                },
+                {
+                    "name": "20s",
+                    "value": 103
+                }
+            ]
+        },
+        {
+            "name": "thrash metal",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 244
+                },
+                {
+                    "name": "90s",
+                    "value": 363
+                },
+                {
+                    "name": "00s",
+                    "value": 286
+                },
+                {
+                    "name": "10s",
+                    "value": 590
+                },
+                {
+                    "name": "20s",
+                    "value": 456
+                }
+            ]
+        },
+        {
+            "name": "trance",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 2
+                },
+                {
+                    "name": "80s",
+                    "value": 21
+                },
+                {
+                    "name": "90s",
+                    "value": 91
+                },
+                {
+                    "name": "00s",
+                    "value": 110
+                },
+                {
+                    "name": "10s",
+                    "value": 960
+                },
+                {
+                    "name": "20s",
+                    "value": 475
+                }
+            ]
+        },
+        {
+            "name": "trap",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 1
+                },
+                {
+                    "name": "90s",
+                    "value": 29
+                },
+                {
+                    "name": "00s",
+                    "value": 261
+                },
+                {
+                    "name": "10s",
+                    "value": 7501
+                },
+                {
+                    "name": "20s",
+                    "value": 4206
+                }
+            ]
+        },
+        {
+            "name": "trip-hop",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 97
+                },
+                {
+                    "name": "00s",
+                    "value": 123
+                },
+                {
+                    "name": "10s",
+                    "value": 118
+                },
+                {
+                    "name": "20s",
+                    "value": 63
+                }
+            ]
+        },
+        {
+            "name": "worship",
+            "children": [
+                {
+                    "name": "60s",
+                    "value": 0
+                },
+                {
+                    "name": "70s",
+                    "value": 0
+                },
+                {
+                    "name": "80s",
+                    "value": 0
+                },
+                {
+                    "name": "90s",
+                    "value": 10
+                },
+                {
+                    "name": "00s",
+                    "value": 46
+                },
+                {
+                    "name": "10s",
+                    "value": 225
+                },
+                {
+                    "name": "20s",
+                    "value": 45
+                }
+            ]
+        }
+    ]
+}

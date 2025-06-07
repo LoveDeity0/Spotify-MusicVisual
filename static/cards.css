@@ -1,0 +1,324 @@
+/* cards.css */
+
+/* 定义全局变量 */
+:root {
+    --rotate-speed: 40;
+    --count: 7;
+    --easing: cubic-bezier(0.000, 0.37, 1.000, 0.63);
+}
+
+.void {
+    width: 100%;
+    height: 100vh;
+    margin: auto;
+    position: relative;
+    overflow: hidden;
+
+    /* 这里开始是毛玻璃效果 */
+    background: rgba(255, 255, 255, 0.15);  /* 半透明白底 */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+}
+
+/* 鼠标悬停时暂停动画 */
+.void ul:hover * {
+    animation-play-state: paused;
+}
+
+/* 设置旋转列表容器 */
+.void ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    z-index: 1;
+}
+
+/* 设置列表项样式，定位到中间 */
+.void li {
+    position: absolute;
+    top: 30%;
+    transform: translate(0%, 0%) translateX(100px);
+    width: 85%;
+    animation: rotateCW calc(var(--rotate-speed) * 1s) var(--easing) infinite;
+}
+
+.card-wrapper {
+  width: 100%;
+  height: 100%;
+  transition: transform 0.3s ease;
+}
+
+.card-wrapper:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+
+/* 设置卡片样式，逆时针旋转抵消li旋转 */
+.card {
+    width: 16%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 12px 16px;
+    gap: 6px;
+
+    /* 这里开始是毛玻璃效果 */
+    background: rgba(255, 255, 255, 0.15);  /* 半透明白底 */
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+
+    font-family: 'Segoe UI', Roboto, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    color: #ffffff;
+
+    animation: rotateCCW calc(var(--rotate-speed) * 1s) var(--easing) infinite;
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+
+
+/* 鼠标悬停时放大并加深阴影 */
+.void li:hover, li:hover .card {
+  animation-play-state: paused;
+}
+
+.card:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+  z-index: 10;
+}
+
+/* 卡片内图片样式 */
+.card img {
+    width: 100%;
+    height: auto;
+    display: block;
+    z-index: 1;
+}
+
+/* a标签无下划线且颜色继承 */
+.void a {
+    text-decoration: none;
+    color: unset;
+    display: block;
+    height: 120px;
+    overflow: hidden;
+}
+
+/* 标题样式 */
+.model-name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 80%;
+    letter-spacing: 3px;
+    color: #ffffff;
+    display: block;
+}
+
+/* svg保持背景层 */
+.void svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+/* 根据项目数量调整动画延迟 */
+/* 默认 --count 是 8，可在页面调整 */
+.void li:nth-child(2),
+.void li:nth-child(2) .card {
+    animation-delay: calc((var(--rotate-speed) / var(--count)) * -1s);
+}
+
+.void li:nth-child(3),
+.void li:nth-child(3) .card {
+    animation-delay: calc((var(--rotate-speed) / var(--count)) * -2s);
+}
+
+.void li:nth-child(4),
+.void li:nth-child(4) .card {
+    animation-delay: calc((var(--rotate-speed) / var(--count)) * -3s);
+}
+
+.void li:nth-child(5),
+.void li:nth-child(5) .card {
+    animation-delay: calc((var(--rotate-speed) / var(--count)) * -4s);
+}
+
+.void li:nth-child(6),
+.void li:nth-child(6) .card {
+    animation-delay: calc((var(--rotate-speed) / var(--count)) * -5s);
+}
+
+.void li:nth-child(7),
+.void li:nth-child(7) .card {
+    animation-delay: calc((var(--rotate-speed) / var(--count)) * -6s);
+}
+
+/* 旋转动画：顺时针 */
+@keyframes rotateCW {
+    from {
+        transform: translate3d(0px, -50%, -1px) rotate(-45deg);
+    }
+
+    to {
+        transform: translate3d(0px, -50%, 0px) rotate(-315deg);
+    }
+}
+
+/* 旋转动画：逆时针 */
+@keyframes rotateCCW {
+    from {
+        transform: rotate(45deg);
+    }
+
+    to {
+        transform: rotate(315deg);
+    }
+}
+
+/* 中心大圆 */
+.center-circle {
+    position: absolute;
+    width: 115px;
+    aspect-ratio: 1 / 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: rgba(255, 209, 192);
+    box-shadow: 0px 18px 36px -18px rgba(12, 5, 46, 0.3),
+        0px 30px 60px -12px rgba(12, 5, 46, 0.25);
+    border-radius: 50%;
+    background-size: cover;
+    background-position: -35px 0;
+}
+
+/* 第二个圆 */
+.second-circle {
+    position: absolute;
+    width: 20%;
+    aspect-ratio: 1 / 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #a6c6ed;
+    opacity: 0.5;
+    box-shadow: 0px 18px 36px -18px rgba(12, 5, 46, 0.3),
+        0px 30px 60px -12px rgba(12, 5, 46, 0.25);
+    border-radius: 50%;
+    background-image: url(./fig/03.gif);
+}
+
+/* 最后一个圆 */
+.last-circle {
+    position: absolute;
+    width: 33%;
+    aspect-ratio: 1 / 1;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #a6c6ed;
+    opacity: 0.25;
+    box-shadow: 0px 18px 36px -18px rgba(12, 5, 46, 0.3),
+        0px 30px 60px -12px rgba(12, 5, 46, 0.25);
+    border-radius: 50%;
+    background-image: url(./fig/03.gif);
+}
+
+/* 裁剪蒙版 */
+.crop {
+    -webkit-mask-image: linear-gradient(90deg, rgba(0, 0, 0, 0),
+            rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1));
+}
+
+/* 遮罩层效果 */
+.mask {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 50%;
+    background-position: 100% 50%;
+    background-repeat: no-repeat;
+    background-image: radial-gradient(100% 50% at 100% 50%,
+            rgba(249, 211, 180, 0.25) 0%,
+            rgba(230, 78, 40, 0.361896) 20%,
+            rgba(242, 126, 58, 0.2872) 40%,
+            rgba(245, 154, 102, 0.204) 60%,
+            rgba(247, 181, 141, 0.0284296) 90%,
+            rgba(3, 155, 229, 0) 100%);
+}
+
+/* 遮罩层边线 */
+.mask:after {
+    content: "";
+    position: absolute;
+    width: 1px;
+    height: 100%;
+    right: 0;
+    display: block;
+    background-image: linear-gradient(180deg, rgba(60, 26, 229, 0) 0%,
+            #a6c6ed 50%, rgba(224, 247, 250, 0) 100%);
+}
+
+/* 唱针 */
+.turntable-needle {
+    position: absolute;
+    width: 160px;
+    height: 6px;
+    background: linear-gradient(45deg, #666, #222);
+    top: 30%;
+    left: 45%;
+    transform-origin: left center;
+    transform: translateX(-50%) rotate(-15deg);  /* 抬起角度 */
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    z-index: 20;
+    transition: transform 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* 唱针头 */
+.turntable-needle::after {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    background: radial-gradient(circle at center, #999, #444);
+    border-radius: 50%;
+    top: 50%;
+    right: 0;
+    transform: translate(50%, -50%);
+    box-shadow: 0 0 8px rgba(0,0,0,0.3);
+}
+
+/* 鼠标悬停时，唱针落下 */
+.void:hover .turntable-needle {
+    transform: translateX(-50%) rotate(5deg);  /* 落下角度，可调整 */
+}
+
+
+#explicit-arc-chart {
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 2;
+}
+.void path {
+  pointer-events: auto;
+  z-index: 10;
+}
+
+
